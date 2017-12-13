@@ -1,10 +1,10 @@
 {
-  "name": "loftschool-builder",
+  "name": "builder",
   "version": "1.0.0",
-  "author": "a.kalin",
+  "author": "rvdvr",
   "license": "ISC",
   "scripts": {
-    "postinstall": "bower install"
+    ""
   },
   "devDependencies": {
     "browser-sync": "2.11.2",
@@ -22,14 +22,11 @@
     "gulp-px3rem": "^0.3.0",
     "gulp-rename": "^1.2.2",
     "gulp-replace": "^0.5.4",
-    "gulp-sass": "2.2.0",
+    "gulp-sass": "3.1.0",
     "gulp-sourcemaps": "1.6.0",
     "gulp-svg-sprite": "^1.3.1",
     "gulp-svgmin": "^1.2.2",
     "gulp.spritesmith": "^6.2.1",
     "rimraf": "2.5.2"
-  },
-  "dependencies": {
-    "normalize.css": "^4.1.1"
   }
 }
