@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'bernier_distressedregular';
+    src: url('../fonts/bernierdistressed-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@mixin font($font-size: 16px, $style: regular) {
+    @if $style == dist {
+        font: $font-size 'bernier_distressedregular', Arial, sans-serif;
+    }
+}
+
+
+
+
